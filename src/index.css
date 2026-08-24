@@ -15,6 +15,26 @@ body {
   min-width: 320px;
 }
 
+a,
+button,
+select {
+  cursor: pointer;
+}
+
+a:active,
+button:active,
+select:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 2px solid #bfd09b;
+  outline-offset: 4px;
+}
+
 ::selection {
   background: #dfe9c9;
   color: #183323;

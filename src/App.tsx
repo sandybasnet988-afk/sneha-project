@@ -55,13 +55,13 @@ export default function App() {
             The Gardens
           </a>
           <div className="hidden gap-8 md:flex">
-            <a className="transition hover:text-white" href="#menu">
+            <a className="transition duration-200 hover:-translate-y-0.5 hover:text-white hover:underline hover:decoration-[#dfe9c9] hover:underline-offset-8" href="#menu">
               Menu
             </a>
-            <a className="transition hover:text-white" href="#terrace">
+            <a className="transition duration-200 hover:-translate-y-0.5 hover:text-white hover:underline hover:decoration-[#dfe9c9] hover:underline-offset-8" href="#terrace">
               Terrace
             </a>
-            <a className="transition hover:text-white" href="#reserve">
+            <a className="transition duration-200 hover:-translate-y-0.5 hover:text-white hover:underline hover:decoration-[#dfe9c9] hover:underline-offset-8" href="#reserve">
               Reserve
             </a>
           </div>
@@ -271,8 +271,8 @@ export default function App() {
             <p className="font-serif text-4xl tracking-[-0.05em] text-stone-50">The Gardens</p>
             <p className="mt-3 max-w-md leading-7 text-stone-300/80">42 Laurel Lane, Your City. Open Wednesday to Sunday, 5pm to late.</p>
           </div>
-          <a className="text-sm font-semibold uppercase tracking-[0.24em] text-[#dfe9c9] transition hover:text-stone-50" href="mailto:hello@thegardens.example">
-            hello@thegardens.example
+          <a className="text-sm font-semibold uppercase tracking-[0.24em] text-[#dfe9c9] transition hover:text-stone-50" href="mailto:thegarden@gmail.com">
+            thegarden@gmail.com
           </a>
         </div>
       </footer>
